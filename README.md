@@ -1,4 +1,5 @@
 # Sherlocktech
+GitHub page to showcase my work and practice some front-end web development.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
