@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+import { PROJECTS } from './projects';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,6 +9,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   navbarCollapsed = true;
+  projects = PROJECTS;
+  project = this.projects[0];
   header = 'Welcome to my portfolio site!';
 
   toggleNavbarCollapse() {

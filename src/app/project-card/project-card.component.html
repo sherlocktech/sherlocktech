@@ -1,8 +1,9 @@
-<div class="card">
-  <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="Card image cap">
+<div class="card bg-dark">
+  <img class="card-img-top" [src]="project.image" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">{{ project.name }}</h5>
+    <p class="card-text">{{ project.description }}</p>
+    <a [href]="project.url" class="btn btn-primary">See Project</a>
+    <a [href]="project.githubURL" class="btn btn-primary ml-2">See Code</a>
   </div>
 </div>
