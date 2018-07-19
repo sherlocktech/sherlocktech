@@ -1,3 +1,13 @@
+.background { 
+    background-image: url("https://source.unsplash.com/Vai8MXyfMcQ/1600x900");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
 #profilepic {
     border-radius: 100%;
 }
