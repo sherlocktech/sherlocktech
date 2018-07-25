@@ -1,22 +1,22 @@
 <div class="mb-0 text-light container-fluid">
   <header class="navbar fixed-top navbar-dark bg-dark navbar-expand-md">
-    <a class="navbar-brand" href="#" (click)="navbarCollasped = true">Sean Stamm</a>
+    <a class="navbar-brand" href="#" (click)="navbarCollapsed = true">Sean Stamm</a>
 
     <button class="navbar-toggler" type="button" (click)="toggleNavbarCollapse()"
-      [attr.aria-expanded]="!navbarCollasped" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      [attr.aria-expanded]="!navbarCollapsed" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="navbar-collapse" [ngbCollapse]="navbarCollapsed" id="navbarContent">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#about" (click)="navbarCollasped = true">About</a>
+          <a class="nav-link" href="#about" (click)="navbarCollapsed = true">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#portfolio" (click)="navbarCollasped = true">Portfolio</a>
+          <a class="nav-link" href="#portfolio" (click)="navbarCollapsed = true">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contact" (click)="navbarCollasped = true">Contact</a>
+          <a class="nav-link" href="#contact" (click)="navbarCollapsed = true">Contact</a>
         </li>
       </ul>
     </div>
